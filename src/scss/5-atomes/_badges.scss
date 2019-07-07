@@ -1,0 +1,10 @@
+.badge-color {
+  width: 16px;
+  height: 40px;
+  @include border-radius(16px);
+  &.primary {background-color: $primary;}
+  &.secondary {background-color: $secondary;}
+  &.pink {background-color: $pink;}
+  &.green {background-color: $green;}
+  &.yellow {background-color: $yellow;}
+}

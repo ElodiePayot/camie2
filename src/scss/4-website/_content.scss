@@ -1,0 +1,14 @@
+.col-main {
+  margin-top: 160px;
+  padding-left: 20px;
+}
+
+@include media-breakpoint-down(lg) {
+  .col-main {margin-top: 50px !important;}
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  .badge-color {margin: 0 10px;}
+}
